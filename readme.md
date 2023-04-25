@@ -30,6 +30,6 @@ Include the last updated time at the bottom of the page, add a link of Team-C re
 ![c workflow](https://github.com/csci3251-2023/project-team-c/actions/workflows/c-cpp.yml/badge.svg)
 ## Contributors
 {% for stu in site.stu %}
-  <h2><img src="{{ stu.image }}" width="50" /> - {{ stu.user }} - {{ stu.name }}</h2>
-  <p>{{ stu.content | markdownify }}</p>
+  <h2>  >> <img src="{{ stu.image }}" width="50" />@{{ stu.user }}({{ stu.name }})</h2>
+  <p>   >>{{ stu.content | markdownify }}</p>
 {% endfor %}
