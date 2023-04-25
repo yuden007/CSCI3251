@@ -31,5 +31,5 @@ Include the last updated time at the bottom of the page, add a link of Team-C re
 ## Contributors
 {% for stu in site.stu %}
 - <img src="{{ stu.image }}" width="50" />@{{ stu.user }} ({{ stu.name }})
--- {{ stu.content | markdownify }}
+    - {{ stu.content | markdownify }}
 {% endfor %}
